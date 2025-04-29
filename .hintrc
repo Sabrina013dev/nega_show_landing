@@ -24,6 +24,7 @@
         "frame-title": "off"
       }
     ],
-    "no-inline-styles": "off"
+    "no-inline-styles": "off",
+    "button-type": "off"
   }
 }
