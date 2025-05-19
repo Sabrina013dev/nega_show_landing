@@ -551,3 +551,20 @@ address strong, br{
 a {
     transition: color 0.3s ease, transform 0.2s ease;
 }
+
+/* Depoimentos - Mantendo tamanho consistente no mobile */
+@media (max-width: 768px) {
+    .testimonials {
+        flex-direction: row;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .testimonial {
+        min-width: 30%; /* Largura mínima reduzida */
+        max-width: 30%; /* Largura máxima fixa */
+        padding: 30px; /* Padding ajustado */
+        margin: 0 auto; /* Centraliza o card */
+        white-space: normal;
+    }
+}
